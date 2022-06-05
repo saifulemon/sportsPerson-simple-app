@@ -1,0 +1,112 @@
+[
+    {
+        "key": "B00dju455",
+        "Role": "All Rounder",
+        "name": "Shakib Al Hasan",
+        "age": "37",
+        "match": "370",
+        "country": "Bangladesh",
+        "salary": "58782",
+        "img": "https://www.crictracker.com/wp-content/uploads/2019/10/Shakib-Al-Hasan-1-1.jpg"
+    },
+    {
+        "key": "Tyhf7843TU",
+        "Role": "Batsman",
+        "name": "Tamim Iqbal",
+        "age": "33",
+        "match": "323",
+        "country": "Bangladesh",
+        "salary": "487899",
+        "img": "https://pbs.twimg.com/profile_images/1396734062031630343/tDgBGQSt_400x400.jpg"
+    },
+    {
+        "key": "TYGI876IO",
+        "Role": "WK-Batsman",
+        "name": "Mushfiqur Rahim",
+        "age": "36",
+        "match": "337",
+        "country": "Bangladesh",
+        "salary": "409786",
+        "img": "https://cricketaddictor.com/wp-content/uploads/2021/02/Mushfiqur-Rahim.jpg"
+    },
+    {
+        "key": "UYYTYG897R",
+        "Role": "Batsman",
+        "name": "Babar Azam",
+        "age": "27",
+        "match": "148",
+        "country": "Pakistan",
+        "salary": "7843676",
+        "img": "https://www.sportingfree.com/wp-content/uploads/2021/06/Babar-Azam-Cricketer.jpg"
+    },
+    {
+        "key": "YYUI730ER",
+        "Role": "All Rounder",
+        "name": "Shahid Afridi",
+        "age": "42",
+        "match": "400",
+        "country": "Pakistan",
+        "salary": "98487845",
+        "img": "https://www.sportstiger.com/wp-content/uploads/2022/04/Shahid-Afridi-web-ST.jpeg"
+    },
+    {
+        "key": "NHJHU897TR",
+        "Role": "Batsman",
+        "name": "Virat Kohli",
+        "age": "34",
+        "match": "498",
+        "country": "India",
+        "salary": "89087675",
+        "img": "https://images.news18.com/ibnlive/uploads/2021/09/virat-kohli-bat-skipper-16318006124x3.jpg"
+    },
+    {
+        "key": "LuYYRU94776",
+        "Role": "Bowler",
+        "name": "Jasprit Bumrah",
+        "age": "27",
+        "match": "289",
+        "country": "India",
+        "salary": "7867656",
+        "img": "https://c.ndtvimg.com/2020-05/e6u4vheg_jasprit-bumrah-afp_625x300_13_May_20.jpg"
+    },
+    {
+        "key": "SHJU7867dGU",
+        "Role": "Batsman",
+        "name": "AB de Villier's",
+        "age": "38",
+        "match": "423",
+        "country": "South Africa",
+        "salary": "47857854",
+        "img": "https://sportslightmedia.com/wp-content/uploads/2022/01/4454.jpg"
+    },
+    {
+        "key": "TYT873JHY",
+        "Role": "Bowler",
+        "name": "Imran Tahir",
+        "age": "38",
+        "match": "297",
+        "country": "South Africa",
+        "salary": "78687564",
+        "img": "https://www.colombotimes.net/wp-content/uploads/2022/01/imran-thahir.png"
+    },
+    {
+        "key": "TYUIN7657TU",
+        "Role": "Batsman",
+        "name": "Kumar Sngakara",
+        "age": "45",
+        "match": "500",
+        "country": "Srilanka",
+        "salary": "100987867",
+        "img": "https://media.gettyimages.com/photos/kumar-sangakkara-of-sri-lanka-at-the-headshot-session-at-the-pan-picture-id479202901?s=612x612"
+    },
+    {
+        "key": "WEUYT8787MNB",
+        "Role": "Bowler",
+        "name": "Lasith Malinga",
+        "age": "47",
+        "match": "487",
+        "country": "Srilanka",
+        "salary": "3874786",
+        "img": "https://c.ndtvimg.com/2020-01/fe5ic94o_lasith-malinga_625x300_01_January_20.jpg"
+    }
+]    
