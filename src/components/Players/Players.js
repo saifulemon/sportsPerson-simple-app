@@ -6,28 +6,45 @@ import Cart from '../Cart/Cart';
 import './Players.css';
 
 const Players = () => {
-    const [players, setPlayers ] = useState([]);
+  const [players, setPlayers] = useState([]);
+  const [cart, setCart] = useState([]);
 
-    useEffect(() => {
-        fetch('./player.JSON')
-        .then(res => res.json())
-        .then(data => setPlayers(data))
-    }, []);
+  useEffect(() => {
+    fetch('./player.JSON')
+      .then(res => res.json())
+      .then(data => setPlayers(data))
+  }, []);
 
-    return (
-        <>
-          <div className='players-container'>
-              <div className='card-container'>
-                {
-                  players.map(person => <Card player={person}></Card>)
-                }
-              </div>
-              <div className='cart-container'>
-                <Cart></Cart>
-              </div>
-          </div>                            
-        </>
-    );
+  const handleAddPlayer = (player) => {
+    const newCart = [...cart, player];
+    setCart(newCart);
+  }
+  const handleRemovePlayer = (player) => {
+    const currentCart = [...cart, player];
+    setCart(!currentCart)
+    
+  }
+
+  return (
+    <>
+      <div className='players-container'>
+        <div className='card-container'>
+          {
+            players.map(person => <Card
+              player={person}
+              key={person.key}
+              handleAddPlayer={handleAddPlayer}
+              handleRemovePlayer={handleRemovePlayer}
+            >
+            </Card>)
+          }
+        </div>
+        <div className='cart-container'>
+          <Cart cart={cart}></Cart>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Players;

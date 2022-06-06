@@ -2,3 +2,14 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: 'Baloo Paaji 2', cursive;
+  }
