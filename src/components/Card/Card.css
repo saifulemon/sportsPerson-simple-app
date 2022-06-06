@@ -22,7 +22,8 @@
 
 .card__name {
   margin-top: 15px;
-  font-size: 1.5em;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .card__image {
@@ -119,7 +120,7 @@
   font-size: 1em;
 }
 
-.social-icons FontAwesomeIcon {
+.social-icons i {
   color: #fff;
   position: absolute;
   top: 0.95em;
@@ -161,7 +162,11 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr;
   font-size: 1.2em;
+}
+
+.grid-container p {
+  margin: 0px;
+  font-size: 22px;
 }
